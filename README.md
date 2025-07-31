@@ -27,7 +27,7 @@ This repository provides a Python script to download Spotify playlists, top trac
 
 ## Setup and Usage
 
-1. **Spotify Developer Dashboard** From the Spotify Developer Dashboard create a new app with redirect url `http://localhost:5000/`
+1. **Spotify Developer Dashboard** From the Spotify Developer Dashboard create a new app with redirect url `http://127.0.0.1:5000/`
 
 3. **API Keys:** Replace `client_id`, `client_secret` with your personal credentials from the new app created.
 4. **FFMEG Location:** Replace `YOUR_FFMEG_LOCATION_HERE` with your ffmeg.exe location( modified because requesting the exe location in code caused a bunch of issues for me)
